@@ -1,0 +1,46 @@
+* {
+   margin: 0 ;
+   padding: 0;
+   box-sizing: border-box;   }
+html {
+   font-size: 62.5% ;
+   font-family: sans-serif;   }
+@media (max-width : 768px) {
+   html {
+      font-size: 43.75%;
+   }   }
+/*------------------------*/
+.change {
+   width: 100%;
+   min-height: 100vh ;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #f3fbff;   }
+.change .img_box {
+   background-image: url(../imgs/background.png);
+   overflow: hidden;
+   width: 70%;
+   line-height: 0 ;
+   position: relative;   }
+.change .imgWrap {
+   width: 2rem;
+   position: absolute;
+   left: 0;
+   top: 0;
+   overflow: hidden;   }
+.change span {
+   width: 1px ;
+   height: 100%;
+   cursor: ew-resize ;
+   background: white;
+   position: absolute;
+   top: 0;
+   left: 2rem ;   }
+.change span .arrow {
+   width: 4rem ;
+   position: absolute;
+   top: 50%;
+   margin-left: -2rem  ;
+   margin-top: -2rem;   }
+
